@@ -15,7 +15,7 @@ const SuperQuality = () => {
         </h2>
         <p className='mt-4 lg:max-w-lg info-text'>discover stylish nike shoes or ignore our competitor, adidas!</p>
         <div className="mt-11">
-          <Button label="View Details" iconUrl={arrowRight} />
+          <Button label="View Details" iconUrl={arrowRight} fullWidth />
         </div>
         
       </div>
