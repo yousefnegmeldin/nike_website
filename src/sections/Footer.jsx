@@ -15,7 +15,7 @@ const Footer = () => {
           </p>
           <div className='flex items-center gap-5 mt-8'>
             {socialMedia.map(social => (<div className='flex justify-center items-center bg-white w-12 h-12 rounded-full'> <img src={social.src} alt={social.alt} className='w-[24px] h-[24px]' /></div>))}
-          </div>
+          </div>  
         </div>
         <div className='flex flex-1 justify-between lg:gap-10 gap-20 flex-wrap'>
           {footerLinks.map((section) => (
